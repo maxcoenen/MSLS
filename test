@@ -1,1 +1,3 @@
-open.table()
+long = read.table("long.txt")
+
+pairs(long, horInd=6)
